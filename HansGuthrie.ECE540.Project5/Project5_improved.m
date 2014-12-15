@@ -151,7 +151,7 @@ hold on
 plot( file3(:,3), file3(:,1), ':','Color', blue, 'linewidth',1.5 );
 hold on
 
-title( 'Sawtooth Wave: Varying Kp (1, 2, 4), Ki = 2*Kp', 'fontweight','bold' );
+title( {'Sawtooth Wave: Varying Kp (1, 2, 4), Ki = 2*Kp'; 'Period = 4'}, 'fontweight','bold' );
 xlabel( 'Time (Seconds)', 'fontweight','bold'  );
 ylabel( 'Output (Radians)', 'fontweight','bold'  );
 grid
@@ -174,7 +174,7 @@ hold on
 plot( file3(:,3), file3(:,1), ':','Color', blue, 'linewidth',1.5 );
 hold on
 
-title( 'Ki = 0, Varying Kp', 'fontweight','bold' );
+title( {'Sawtooth Wave: Varying Kp (1, 2, 4), Ki = 2*Kp'; 'Period = 8'}, 'fontweight','bold' );
 xlabel( 'Time (Seconds)', 'fontweight','bold'  );
 ylabel( 'Output (Radians)', 'fontweight','bold'  );
 grid
